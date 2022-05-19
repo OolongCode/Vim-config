@@ -1,3 +1,12 @@
+call plug#begin('~/.vim/plugged')
+Plug 'rust-lang/rust.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jiangmiao/auto-pairs'
+Plug 'vim-airline/vim-airline'
+Plug 'junegunn/vim-easy-align'
+Plug 'vim-scripts/SuperTab'
+call plug#end()
+
 syntax on
 set showmode
 set showcmd
